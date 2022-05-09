@@ -4,31 +4,27 @@ function diasemana()
     switch(dia)
     {
         case 1:
-            document.formulario.respuesta.value = "Lunes"
+            document.formulario.respuesta.value = "Lunes";
             break;
-
         case 2:
-            document.formulario.respuesta.value = "Martes"
+            document.formulario.respuesta.value = "Martes";
             break;
         case 3:
-            document.formulario.respuesta.value = "Miercoles"
+            document.formulario.respuesta.value = "Miercoles";
             break;
         case 4:
-            document.formulario.respuesta.value = "Jueves"
+            document.formulario.respuesta.value = "Jueves";
             break;
         case 5:
-            document.formulario.respuesta.value = "Viernes"
+            document.formulario.respuesta.value = "viernes";
             break;
         case 6:
-            document.formulario.respuesta.value = "Sabado"
+            document.formulario.respuesta.value = "Sabado";
             break;
         case 7:
-            document.formulario.respuesta.value = "Domingo"
+            document.formulario.respuesta.value = "Domingo";
             break;
         default:
-            document.formulario.respuesta.value = "No es un dia de la semana"
-                         
- 
-            
+            document.formulario.respuesta.value = "No es un dia de la semana";
     }
 }
